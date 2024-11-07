@@ -1,0 +1,177 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 375px;
+    max-height: 667px;
+    overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.05rem;
+}
+
+/* Homepage styles */
+#homepage {
+    background-image: url('images/backgroundhomepage.png');
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Discovery page styles */
+#discovery {
+    background-image: url('images/backgrounddiscovery.png');
+    height: 100vh;
+    width: 100vw;
+}
+
+#discovery main {
+    display: inline-flex;
+    margin: 18rem 0 0 0;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#discovery main div {
+    flex: 0 0 auto;
+    width: 11rem;
+    height: 14rem;
+    margin: 0 1rem;
+    padding: 0.625rem;
+    background-color: #A65132;
+    border: 1rem solid #5B3737;
+    border-radius: 1rem;
+    color: #FFE1C7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    scroll-snap-align: center;
+}
+
+#discovery main div img {
+    width: 80%;
+    height: auto;
+    border-radius: 0.125rem;
+    margin-bottom: 0.5rem;
+}
+
+#discovery main div p {
+    font-size: 0.875rem;
+    margin: 0;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+/* Roadmap page styles */
+#roadmap {
+    background-image: url('images/backgroundroadmap.png');
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#roadmap main {
+    margin-top: 5rem;
+    padding: 0.5rem;
+    color: #789EBF;
+    font-size: 1rem;
+}
+
+#roadmap main div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.125rem;
+    margin: 0.5rem;
+}
+
+.text-box {
+    width: 40%;
+    color: #789EBF;
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+.roadmap-image {
+    width: 40%;
+    border-radius: 0.5rem;
+}
+
+/* Help box styles */
+.help-box {
+    width: 10rem;
+    height: 2rem;
+    margin: 0 auto;
+    padding: 0.4rem;
+    background-color: #5B3737;
+    border-radius: 0.5rem;
+    color: #FFE1C7;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-box a {
+    text-decoration: none;
+    color: #FFE1C7;
+}
+
+/* Information section styles */
+#information {
+    background-image: url('images/backgroundinformation2.png');
+    display: flex;
+    justify-content: center;
+    padding-top: 20rem;
+}
+
+#information section > div {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #A65132;
+    color: #FFE1C7;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Typography */
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.05rem;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    width: 86%;
+    height: 3rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #5B3737;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+footer ul {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer img {
+    width: 3rem;
+    height: 3rem;
+}
